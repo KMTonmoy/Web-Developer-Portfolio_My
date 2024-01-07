@@ -159,8 +159,8 @@ main {
   justify-content: space-between;
 }
 
-.about-info{
-    margin-top: 30px;
+.about-info {
+  margin-top: 30px;
 }
 
 .about-info p {
@@ -177,7 +177,63 @@ main {
   line-height: 30px;
 }
 
+section {
+  margin-top: 150px;
+}
 
-section{
-    margin-top: 150px;
+.what-i-do {
+  text-align: center;
+}
+
+.what-i-do-title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.what-i-do-disc {
+  margin-top: 0;
+  color: #757575;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.my-skills {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill {
+  padding: 30px;
+  text-align: left;
+  width: 267px;
+  height: 377px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill img {
+  width: 44px;
+  height: 44px;
+}
+
+.skill p {
+    margin-top: 0;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.skill h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
 }
