@@ -223,7 +223,7 @@ section {
 }
 
 .skill p {
-    margin-top: 0;
+  margin-top: 0;
   color: #757575;
   font-size: 16px;
   font-weight: 400;
@@ -231,9 +231,65 @@ section {
 }
 
 .skill h3 {
-    margin-top: 30px;
-    margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   color: #181818;
   font-size: 20px;
   font-weight: 700;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 110px;
+}
+
+.education-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.plushr {
+  border-bottom: 2px solid gray;
+}
+
+.edu {
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.edu h1 {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.edu h3 {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.edu p {
+  margin-top: 0;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.sec-tit {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+
+.but{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
