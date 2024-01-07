@@ -287,9 +287,61 @@ section {
   margin-bottom: 50px;
 }
 
+.but {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
 
-.but{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
+footer {
+  margin-top: 150px;
+  height: 780px;
+  background: #fff8f3;
+  display: flex;
+  justify-content: space-around;
+  padding: 130px;
+  align-items: center;
+}
+
+.socal i {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-right: 20px;
+  color: #fd6e0a;
+}
+
+.infos {
+  width: 500px;
+  align-items: center;
+}
+
+.miniinput {
+  margin-bottom: 25px;
+  display: block;
+  width: 361px;
+  height: 44px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 15px 20px;
+
+}
+
+form textarea {
+  border: none;
+  margin-bottom: 25px;
+  display: block;
+  width: 361px;
+  height: 180px;
+  border-radius: 5px;
+  background: #fff;
+  padding: 15px 20px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
 }
